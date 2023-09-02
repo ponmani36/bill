@@ -1,0 +1,82 @@
+<html>
+<head>
+ <title>Billing Application</title>
+<meta name="description"content="Billing Application for fruit shope "/>
+<meta name="keyword"content="fresh fruits,dry fruits,hygienic and nutrient rich fruits"/>
+<meta name="viewport"content="width=device-width,initial-scale=1.0"/>
+<meta name="robots"content="index,follow"> 
+<link rel= "stylesheet" href="style.css">
+<script src="main.js"></script>
+<meta name="viewport" content="width-device-width,initial-scale-1.0"> 
+</head>
+    <body>
+
+           <center>
+                <h1>House Of Fresh Fruit</h1>
+     
+<from>
+        <fieldset>
+            
+    <legend>Buy Your Things Here</legend>
+            <label for="name"> Enter Your Name :</label><input type="text" name="name"><br>
+            
+            <label for="moblie no">Enter Your Mobile NO:</label><input type="number"name="mobile no"><br>
+                        
+           <div><input id="count" placeholder="count of product"><br>
+                 <button onclick="addcount()" id="btn3"> click Here </button>
+                 <label id="labelname4">count</label><br>
+                 </div>
+
+            <div >Enter Your product: <input id="input1" placeholder="Item Name"><br>
+                Enter the weight: <input id="input2" placeholder="Enter the weight "><br>
+               price of the product: <input id="input3" placeholder="price of the product"><br>
+                
+                 <button onclick="addname()" id="btn"> Add</button><br>
+                </div>
+             
+                <div id="dynamiclist">
+                 <label id="labelname1">List Of Product</label>&emsp;&emsp;&emsp;&emsp;
+                <label id="labelname2">List Of Product</label>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                <label id="labelname3">List Of Product</label>&emsp;&emsp;&emsp;&emsp;
+                 </div>
+               <p>Item Name&emsp;&emsp;&emsp;&emsp;wigth in KG&emsp;&emsp;&emsp;&emsp;price</p>
+           <div> <input id="count2" placeholder="Total Price">
+            <button onclick="total1()" id="btn4">Total</button>
+            <label id="labelname5">total</label><br></div>
+            
+            <button onclick="count1()" id="btn2">Click to submit</button>
+            
+    </fieldset>
+       <button class="buy-button">BUY</button>
+       </from>
+    </center> 
+    <style>
+    
+        input{
+            margin-top: 20px;  
+           
+            
+}
+        button{
+             text-align: left;
+            margin-top: 20px;
+            
+        }
+        #labelname1{
+            margin-top: 20px;
+        }
+        #labelname2{
+            margin-top: 20px;
+        }
+        #labelname3{
+            margin-top: 20px;
+        }
+        p{
+            margin-right: 90px;
+            font-family:monospace;
+                    font-size: 25px;
+        }
+
+    </style>
+    </body>
+</html>

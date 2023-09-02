@@ -1,0 +1,17 @@
+
+h1{
+    color: darkblue;    
+    height: 70px;
+    background-color:dodgerblue;
+    background-image: url(bg4.jpg);
+    width: 1000px;
+    padding: 20px;
+    font-family: 'Tilt Prism', cursive;
+   
+}
+body{
+    background-image:url(bg7.png);   
+}
+label{
+    text-align: center;
+}
